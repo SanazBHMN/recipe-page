@@ -3,7 +3,7 @@ import recipe from "../utils/recipe.json";
 
 const Instructions = () => {
   return (
-    <div>
+    <div style={{ borderBottom: "1px solid hsl(30, 18%, 87%)" }}>
       <SectionTitle text="instructions" />
       <ol>
         {recipe.instructions.map((item, index) => (

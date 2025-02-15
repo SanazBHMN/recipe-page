@@ -1,15 +1,18 @@
-// import "./App.css";
 import Container from "react-bootstrap/Container";
-import Ingredients from "./components/Ingredients";
-import Instructions from "./components/Instructions";
-import Nutrition from "./components/Nutrition";
+import RecipeCard from "./components/RecipeCard";
+import { Row } from "react-bootstrap";
 
 function App() {
   return (
-    <Container fluid>
-      <Ingredients />
-      <Instructions />
-      <Nutrition />
+    <Container
+      fluid
+      style={{
+        padding: "0",
+      }}
+    >
+      <Row>
+        <RecipeCard />
+      </Row>
     </Container>
   );
 }
