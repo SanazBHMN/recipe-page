@@ -1,11 +1,11 @@
 // import "./App.css";
 import Container from "react-bootstrap/Container";
-import SectionTitle from "./components/SectionTitle";
+import Ingredients from "./components/Ingredients";
 
 function App() {
   return (
     <Container fluid>
-      <SectionTitle text="HEADER" />
+      <Ingredients />
     </Container>
   );
 }
